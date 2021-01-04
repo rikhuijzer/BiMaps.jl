@@ -2,6 +2,10 @@
 
 Immutable bidirectional map in Julia.
 
+In most cases, you probably don't want to use this package but rather
+
+- [Bijections.jl](https://github.com/scheinerman/Bijections.jl) or
+- [CategoricalArrays.jl](https://github.com/JuliaData/CategoricalArrays.jl).
 
 ### Usage
 
