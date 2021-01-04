@@ -2,9 +2,9 @@ module BidirectionalMaps
 
 using Base: ImmutableDict
 
-export Bimap
+export ImmutableBimap
 
-struct Bimap{S,T}
+struct ImmutableBimap{S,T}
   left::ImmutableDict{S,T}
   right::ImmutableDict{T,S}
 

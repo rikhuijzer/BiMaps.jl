@@ -16,7 +16,7 @@ julia> U = ["A", "D", "B"];
 
 julia> V = ["F", "G", "B"];
 
-julia> b = Bimap{String,String}(U, V);
+julia> b = ImmutableBimap{String,String}(U, V);
 
 julia> b.left["A"]
 "F"
